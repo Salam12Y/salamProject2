@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity3">
+
+    <ToggleButton
+        android:id="@+id/TbtnSignIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignOut"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/tvSignIn"
+        android:layout_width="96dp"
+        android:layout_height="33dp"
+        android:text="StaySignIn"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <RadioGroup
+        android:id="@+id/rGroup"
+        android:layout_width="255dp"
+        android:layout_height="196dp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="215dp">
+
+        <RadioButton
+            android:id="@+id/RbtnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:text="Delete" />
+
+        <RadioButton
+            android:id="@+id/rbtnCross"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:text="CrossLine" />
+
+        <RadioButton
+            android:id="@+id/rbtnMove"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="MoveToEnd" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="175dp"
+        android:layout_height="53dp"
+        android:text="ClearHistory"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="584dp" />
+
+    <Switch
+        android:id="@+id/swkeepHistory"
+        android:layout_width="206dp"
+        android:layout_height="68dp"
+        android:text="KeepHistory"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
