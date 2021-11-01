@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "747061291309",
+    "project_id": "salamproject2",
+    "storage_bucket": "salamproject2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747061291309:android:edeb82a2e843ceb3e38ba4",
+        "android_client_info": {
+          "package_name": "yassen.salam.salamproject2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747061291309-qnt9k9qbmpqf5n3dvpn9cn0gvn11cubk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXBi97_oTKkS_aDAzd4D5DL2Hz0arTu5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747061291309-qnt9k9qbmpqf5n3dvpn9cn0gvn11cubk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
