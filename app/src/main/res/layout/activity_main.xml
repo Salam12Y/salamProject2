@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <SearchView
+        android:id="@+id/svSearchView"
+        android:layout_width="407dp"
+        android:layout_height="58dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="25dp">
+
+    </SearchView>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/FAbtn"
         android:layout_width="wrap_content"
@@ -17,20 +26,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@android:drawable/ic_input_add" />
 
-    <SearchView
-        android:id="@+id/svSearchView"
-        android:layout_width="407dp"
-        android:layout_height="58dp"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="25dp">
-
-    </SearchView>
-
     <ListView
         android:id="@+id/lstvAllTasks"
         android:layout_width="409dp"
         android:layout_height="280dp"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="83dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="83dp" >
+
+    </ListView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

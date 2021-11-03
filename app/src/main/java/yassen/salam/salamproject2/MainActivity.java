@@ -91,7 +91,8 @@ public class MainActivity extends AppCompatActivity implements DialogInterface.O
                   dialog.cancel();
                   finish();// To close current activity
               }
-              if (which == dialog.BUTTON_NEGATIVE) { Toast.makeText(getApplicationContext(), "Loging out cancle", Toast.LENGTH_SHORT).show();
+              if (which == dialog.BUTTON_NEGATIVE) {
+                  Toast.makeText(getApplicationContext(), "Loging out cancle", Toast.LENGTH_SHORT).show();
               dialog.cancel();
               }
           }
